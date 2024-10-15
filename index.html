@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Frozen Movie</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.footer{
+			bottom: 0;
+			position: fixed;
+			background-color: skyblue;
+			width: 100%;
+			padding: 10px;
+		}
+		.container{
+			padding: 20px;
+        	margin: 20px;
+    	}
+ 		body {
+ 			background-image: url(https://www.collinsdictionary.com/images/full/skyblue_573262585_1000.jpg);
+ 			background-size: cover;
+ 			background-repeat: no-repeat;
+ 		}
+		.characters{
+			background: darkblue;
+			text-align: center;
+			padding: 20px;
+			margin: 20px 10%;
+			border-radius: 10px;
+		}
+    	.characters .card {
+    		display: inline-block;
+    		background-color: white;
+    		border-radius: 10px;
+    		padding: 10px;
+    		width: 200px;
+    		margin: 10px;
+    		vertical-align: top;
+    	}
+    	.card img {
+    		width: 100%;
+    		border-radius: 10px 10px 0 0;
+    	}
+    	.card .container {
+    		padding: 10px;
+    	}
+    	.card:hover {
+    		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    	}
+	</style>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<h1>Frozen</h1>
+	</div>
+
+	<!-- info -->
+	<img src="https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg?region=0%2C0%2C540%2C810" alt="Frozen Movie Poster">
+	<div class="info"> 
+		<p>Frozen is a child-friendly, musical fantasy, animated film made by Walt Disney Animation Studios. This movie highlights the importance of friendship, kindness, trust, and love...</p>
+	</div>
+
+	<!-- characters -->
+	<h2>Characters</h2>
+	<div class="characters">
+		<div class="card">
+			<img src="https://miro.medium.com/v2/resize:fit:3840/1*ziMyCF-lzjMR_MtIGvYhog.jpeg" alt="Elsa">
+			<div class="container">
+				<h4><b>Elsa</b></h4> 
+				<p>Newly-reigned Queen with Snow Powers</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://images.alphacoders.com/491/thumb-1920-491320.jpg" alt="Anna">
+			<div class="container">
+				<h4><b>Anna</b></h4> 
+				<p>Princess of Arendelle; sister of Elsa</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://i.insider.com/53c6cb8969bedd3456f996b5?width=800&format=jpeg&auto=webp" alt="Hans">
+			<div class="container">
+				<h4><b>Hans</b></h4> 
+				<p>Antagonist; first boyfriend of Anna</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://static.wikia.nocookie.net/disneyprincess/images/2/21/KristoffPIC.jpg/revision/latest?cb=20141126045417" alt="Kristoff">
+			<div class="container">
+				<h4><b>Kristoff</b></h4> 
+				<p>Protagonist; second and forever boyfriend of Anna</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://i.redd.it/9m4h0v59xry41.jpg" alt="Olaf">
+			<div class="container">
+				<h4><b>Olaf</b></h4> 
+				<p>Talking Snowman</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="https://static.wikia.nocookie.net/characters/images/2/2c/Svendisney.jpg/revision/latest?cb=20150103024710" alt="Sven">
+			<div class="container">
+				<h4><b>Sven</b></h4> 
+				<p>A reindeer, Kristoff's companion</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- form -->
+	<div class="form"> 
+		<h3>Any thoughts on Frozen?</h3>
+		<form>
+			<fieldset>
+				<legend>Comments</legend>
+				<textarea name="comments" rows="5" cols="60"></textarea><br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</fieldset>
+
+			<label for="movies">Movie Recommendations:</label>
+			<select name="movies" id="movies">
+				<option value="frozen2">Frozen 2</option>
+				<option value="tangled">Tangled</option>
+				<option value="turningred">Turning Red</option>
+				<option value="sleepingbeauty">Sleeping Beauty</option>
+			</select>
+			<br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<h4>Phoebe Catimbang | 9-Topaz</h4>
+	</div>
+</body>
+</html>
